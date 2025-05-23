@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0e68c; /* Amarelo festivo */
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    color: #8b4513; /* Marrom rústico */
+}
+
+p {
+    color: #006400; /* Verde campo */
+    font-size: 18px;
+}
+
+#gameCanvas {
+    border: 2px solid #8b4513;
+    background-color: #add8e6; /* Azul céu */
+}
+
+#score, #inventory {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #ff4500; /* Laranja vibrante */
+}
